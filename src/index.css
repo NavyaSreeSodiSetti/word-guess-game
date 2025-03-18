@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f8ff; /* Light blue background */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #ffffff; /* White container background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #4CAF50; /* Green title color */
+}
+
+.word-display {
+  font-size: 30px;
+  margin: 20px 0;
+  letter-spacing: 5px;
+  color: #333333; /* Dark text for the word display */
+}
+
+.letter {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+  color: #FF5722; /* Orange color for letters */
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+button {
+  font-size: 16px;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #00bcd4; /* Cyan background for buttons */
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0097a7; /* Darker cyan for hover effect */
+}
+
+button:disabled {
+  background-color: #e0e0e0; /* Light gray for disabled buttons */
+  cursor: not-allowed;
+}
